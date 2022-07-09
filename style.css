@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+body{
+    background-color: bisque;
+    font-size: 23px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+}
+.links{
+    text-decoration: none;
+    cursor: grabbing;
+}
+#name{
+    color: rgb(224, 141, 162);
+    font-size: 32px;
+    padding-right: 450px;
+}
+#para{
+    font-size: 25px;
+    margin-left: 0.5cm;
+}
+#skcet{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#border
+{
+    border: 2px solid rgb(28, 21, 121);
+}
+#photo{
+    height: 250px;
+    width: 230px;
+    border-radius: 100px;
+}
+#resume{
+    border: 2px solid rgb(226, 108, 197);
+    text-decoration: none;
+    background-color: rgb(197, 193, 221);
+}
+#res{
+    text-align: center;
+    ;
+}
+#skillcontainer{
+    text-align: center;
+    padding-left: -20%;
+}
+#skillTitle{
+    padding-right: 45%;
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding: 3px;
+}
+progress[value]{
+    height: 30px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+#InterestsTopic{
+    padding-right: 70%;
+}
+#books{
+    padding-right: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#bookpara{
+    margin-left: 6cm;
+    text-align: left;
+    border: 1.5px solid red;
+    background-color: aliceblue;
+}
+#bookimg{
+    height: 6cm;
+    width: 5cm;
+    padding-top: 1cm;
+}
+#bookimg2{
+    height: 6cm;
+    width: 10cm;
+}
+#series{
+    padding-right: 60%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#seriespara{
+    margin-left: 6cm;
+    text-align: left;
+    border: 1.5px solid red;
+    background-color: aliceblue;
+}
+#seriesimg{
+    height: 6cm;
+    width: 5cm;
+    padding-top: 1cm;
+}
+#seriesimg2{
+    height: 6cm;
+    width: 6cm;
+} 
+#contactTopic{
+    padding-right: 70%;
+}
+#cabc{
+    border : 1.5px solid red;
+    background-color: aliceblue;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+}
+#lkd{
+    height: 1cm;
+    width: 1cm;
+}
+#instagram{
+    height: 1cm;
+    width: 1cm;
+}
+#twitter{
+    height: 1cm;
+    width: 1cm;
+}
+#media{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    padding: 0% 30% 0% 30% ;
+    cursor: grabbing;
+}
+.input{
+    line-height: 30px;
+    width: 220px;
+    border-radius: 2px;
+    border-color: black;
+    margin: 10px 0;
+}
+#button{
+    line-height: 20x;
+
+
+}
+
